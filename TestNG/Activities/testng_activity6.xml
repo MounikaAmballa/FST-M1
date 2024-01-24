@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Activity6Suite">
+    <test thread-count="4" name="act6testsuite">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="password"/>
+        <classes>
+            <class name="activities.Activity6"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
