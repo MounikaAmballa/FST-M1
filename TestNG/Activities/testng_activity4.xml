@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Activity4Suite">
+    <test thread-count="4" name="SuiteTests">
+        <classes>
+            <class name="activities.Activity4_DemoOne"/>
+            <class name="activities.Activity4_DemoTwo"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
